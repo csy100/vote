@@ -34,3 +34,5 @@ python main.py
 pnpm run dev
 ```
 
+
+> ⚠️ 前后端详情分别可见 frontend 和 backend 目录下的 READEME.md 文件
