@@ -1,1 +1,36 @@
 # Live Vote 实时投票系统
+
+## 项目简介
+这是一个基于Vue 3和FastAPI构建的实时投票系统。用户可以参与投票并实时查看投票结果。系统使用WebSocket实现实时数据更新。
+
+## 技术栈
+### 前端
+- Vue 3
+- TypeScript
+- ECharts (数据可视化)
+- WebSocket (实时通信)
+- Axios (HTTP请求)
+
+### 后端
+- FastAPI
+- WebSocket
+- SQLite数据库
+
+## 功能特点
+- 实时投票功能
+- 实时结果展示
+- 图表化展示投票数据
+- 防重复投票机制
+- 响应式设计
+
+## 本地运行
+1. 启动后端服务
+```bash
+python main.py
+```
+
+2. 启动前端服务
+```bash
+pnpm run dev
+```
+
